@@ -1,0 +1,41 @@
+body {
+  color: #1b1815;
+}
+
+.btn {
+    background-color: rgb(200, 200, 200);
+}
+
+a.btn {
+  color: inherit;
+}
+
+.btn.btn-primary {
+  background-color: #f4db3c;
+  border-color: #f4db3c;
+  color: #1b1815;
+}
+
+.btn-primary:hover, .btn-primary:active {
+  background-color: #FDE442;
+  border-color: #FDE442;
+  color: #1b1815;
+}
+
+.btn-primary:focus:active {
+  background-color: #DAC125;
+  border-color: #DAC125;
+  color: #1b1815;
+  outline: none;
+}
+
+
+@media (min-width: 768px) {
+  .pull-right-sm {
+    float: right;
+  } 
+
+  .offset-right-sm-3 {
+    margin-right: 25%;
+  }
+}
